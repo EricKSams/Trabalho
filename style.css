@@ -1,0 +1,20 @@
+.container{
+    font-family: 'Roboto', sans-serif;
+}
+
+.cor {
+    background-color:#d8faf2 ;
+}
+
+.coret{
+    background-color:  #b5efe2;
+}
+
+.sub{
+    margin-top: 8px;
+}
+
+.aluz{
+    padding: 25px;
+    border-radius: 5%;
+}

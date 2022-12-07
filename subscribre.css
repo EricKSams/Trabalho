@@ -1,0 +1,18 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    font-family: 'Roboto', sans-serif;
+}
+
+.cor {
+    background-color:#d8faf2 ;
+}
+
+.coret{
+    background-color:  #b5efe2;
+}

@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+
+.container{
+    font-family: 'Roboto', sans-serif;
+}
+
+.cor {
+    background-color:#d8faf2 ;
+}
+
+.coret{
+    background-color:  #b5efe2;
+}
+
+.lec1{
+    padding: 2%;
+    border-radius: 20px;
+    background-color: #b5efe2 ;
+}
+
+.container{
+    font-family: 'Roboto', sans-serif;
+}
+
+.cor {
+    background-color:#d8faf2 ;
+}
+
+.coret{
+    background-color:  #b5efe2;
+}
+.e {
+    border: 1px solid red;
+}

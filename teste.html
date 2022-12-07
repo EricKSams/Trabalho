@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <title>Página de Cadastro Pessoal</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark cor">
+                <div class="container">
+                    <a
+                        href="C:\Users\Erick\OneDrive\Documentos\Codes\Web\SACSIta.html"
+                        class="navbar-brand text-dark"><img
+                            src="C:\Users\Alunos\Downloads\WhatsApp Image
+                            2022-12-02 at 09.53.55.jpeg"
+                            width="90" height="80">
+                    </a>
+                    <button type="button" class="navbar-toggler"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav">
+                            <a
+                                href="C:\Users\Erick\OneDrive\Documentos\Codes\Web\SACSIta.html"
+                                class="nav-item nav-link active text-dark">Início</a>
+                            <a href="#" class="nav-item nav-link active
+                                text-dark">Bairros</a>
+                            <a
+                                href="C:\Users\Alunos\Desktop\07.10
+                                Laila\index.noticias.html"
+                                class="nav-item nav-link active text-dark">Notícias</a>
+                        </div>
+                        <div class="navbar-nav ms-auto">
+                            <div class="dropdown mx-3">
+                                <button class="btn coret dropdown-toggle"
+                                    type="button" id="cadastro"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Login
+                                </button>
+                                <ul class="dropdown-menu"
+                                    aria-labelledby="dropdowncadastro">
+                                    <li><a
+                                            href="C:\Users\Erick\OneDrive\Documentos\Codes\Web\SACSlogin.html"
+                                            class="dropdown-item">Login Pessoal</a></li>
+                                    <li><a href="#" class="dropdown-item">Login
+                                            Bairro</a></li>
+                                    <li><a href="#" class="dropdown-item">Login
+                                            SACS</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn coret dropdown-toggle"
+                                    type="button" id="cadastro"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Cadastro
+                                </button>
+                                <ul class="dropdown-menu"
+                                    aria-labelledby="dropdowncadastro">
+                                    <li><a
+                                            href="C:\Users\Erick\OneDrive\Documentos\Codes\Web\cadastro.html"
+                                            class="dropdown-item">Cadastro
+                                            Pessoal</a></li>
+                                    <li><a href="#" class="dropdown-item">Cadastre
+                                            seu Bairro</a></li>
+                                    <li><a href="#" class="dropdown-item">Seja
+                                            um SACS</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="d-flex justify-content-center my-3">
+                <form class="row d-block bg-success text-light aluz">
+                    <div class="col-md-12 d-flex">
+                        <div class="col-md-6">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome"
+                                placeholder="Digite seu nome">
+                        </div>
+                        <div class="col-md-6 mx-2 sub">
+                            <label for="sobrenome" class="formm-label">Sobrenome</label>
+                            <input type="text" class="form-control" id="surname"
+                                placeholder="Digite seu sobrenome">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="email"
+                            placeholder="Digite seu email">
+                    </div>
+                    <div class="col-6">
+                        <label for="telefone" class="form-label">Telefone</label>
+                        <input type="text" class="form-control" id="telefone"
+                            placeholder="Digite seu telefone">
+                    </div>
+                    <div class="col-6">
+                        <label for="Bairro" class="form-label">Bairro</label>
+                        <select id="bairro" class="form-select">
+                            <option selected>Selecione
+                                <option value="">Alto Alegre</option>
+                                <option value="">Área Nobre</option>
+                                <option value="">Boa Vista</option>
+                                <option value="">Cacimbas</option>
+                                <option value="">Centro</option>
+                                <option value="">Conjunto COHAB</option>
+                                <option value="">Coqueiro</option>
+                                <option value="">Cruzeiro</option>
+                                <option value="">Das Flores</option>
+                                <option value="">Estação</option>
+                                <option value="">Julho</option>
+                                <option value="">Laderia</option>
+                                <option value="">Madalenas</option>
+                                <option value="">Maranhão</option>
+                                <option value="">Mourão</option>
+                                <option value="">Nova Aldeota</option>
+                                <option value="">Picos</option>
+                                <option value="">São Francisco</option>
+                                <option value="">São Sebastião</option>
+                                <option value="">Senharão</option>
+                                <option value="">Violete</option>
+                            </option>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="checkin" required>
+                                <label class="form-check-label" for="checkin">Eu
+                                    aceito os <a href="#">termos</a></label>
+                            </div>
+                        </div>
+                        <div class="col-12 sub">
+                            <button type="submit" class="btn btn-success
+                                btn-outline-light" id="btn">Cadastre-se</button>
+                        </div>
+                    </form>
+                </section>
+            </main>
+            <footer class="coret d-flex my-3">
+                <div class="text-dark mx-3">
+                    <h2>Coleta Ita</h2>
+                    <p>Av. Anastácio Braga, 823</p>
+                    <p>Itapipoca - CE - CEP:62532-000</p>
+                    <a href="#" class="text-dark"><i class="text-dark bi
+                            bi-telephone"></i>+55 (88) 9 8124-5644</a>
+                </div>
+                <div>
+                    <a href="#"><i class="bi bi-facebook text-dark"></i></a>
+                    <a href="#"><i class="bi bi-twitter text-dark"></i></a>
+                    <a href="#"><i class="bi bi-instagram text-dark"></i></a>
+                </div>
+            </footer>
+
+            <script src="js/sub.js"defer></script>
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
+        </body>
+    </html>
